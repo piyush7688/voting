@@ -1,0 +1,27 @@
+{
+  "homepage": "https://Kapcool12.github.io/Blockchain_voting_system",
+  "name": "blockchain-voting-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "lite-server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "react-scripts": "^3.0.1",
+    "truffle": "^5.5.24"
+  }
+}
